@@ -1,0 +1,14 @@
+*{
+    width: fit-content;
+}
+
+.odd{
+    background-color: pink;
+}
+#blueText{
+    color: blue;
+}
+#boldGreen{
+    font-weight: bold;
+background-color: lightgreen;
+}
