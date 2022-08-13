@@ -64,3 +64,41 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* ---- */
+
+/* Container */
+.modal{
+display: flex;
+gap: 16px;
+padding: 16px;
+}
+
+/* Prevents logo from being shrunk */
+.icon{
+  flex-shrink: 0;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.text{
+  margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
