@@ -95,11 +95,9 @@ padding: 12px;
 
 .footer ul{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
   margin: 10px;
   padding: 10px;
+  gap: 1rem;
 }
 
 
