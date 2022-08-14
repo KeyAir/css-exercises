@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* -- */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column
 }
 
 img {
@@ -25,3 +29,83 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+/* ----- */
+.container{
+  display: flex;
+  flex: 1;
+}
+
+/* Removes list bullets */
+li{
+  list-style: none;
+  color: black;
+}
+
+/* Removes link underlines */
+a:link { 
+  text-decoration: none; 
+}
+a:visited { 
+  text-decoration: none; 
+}
+a:hover { 
+  text-decoration: none; 
+}
+a:active { 
+  text-decoration: none; 
+}
+
+/* Change link colors to black */
+a{
+  color: gray;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.header ul{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+.buttons button{
+margin: 4px;
+padding: 12px; 
+}
+
+.footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: #eeeeee;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
